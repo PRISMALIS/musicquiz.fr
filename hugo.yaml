@@ -1,0 +1,28 @@
+baseURL: http://www.musicquiz.fr/
+languageCode: fr-FR
+title: MusicQuiz.fr
+theme: "PaperMod"
+
+params:
+    disableThemeToggle: false
+    defaultTheme: dark
+    profileMode:
+        enabled: true
+        title: " " # optional default will be site title
+        subtitle: ""
+        imageUrl: "mq.png" # optional
+        imageTitle: "musicquiz.fr" # optional
+        imageWidth: 720 # custom size
+        imageHeight: 388 # custom size
+        buttons:
+          - name: "+33 (0)7 83 21 36 21"
+            url: "tel:33783213621"
+          - name: "info@musicquiz.fr"
+            url: "mailto:mailto:info@musicquiz.fr?subject=Booking%20Request"
+
+
+    socialIcons: 
+        - name: "Instagram"
+          url: "https://instagram.com/music_quiz.fr_"
+        - name: "Facebook"
+          url: "https://facebook.com/musicquiz.fr"

@@ -35,7 +35,7 @@ jobs:
           aws-region: us-east-1
 
       - name: Deploy to S3 Bucket
-        run: aws s3 sync ./public s3://www.musicquiz.fr --exclude '.git/*' --exclude '.github/*' --acl public-read
+        run: aws s3 sync ./public s3://www.musicquiz.fr --exclude '.git/*' --exclude '.github/*'
 
       - name: Invalidate Cloudfront CDN
         run: aws cloudfront create-invalidation --distribution-id=$CLOUDFRONT_DISTRIBUTION_ID --paths '/*'

@@ -4,7 +4,7 @@ title: MusicQuiz.fr
 theme: "PaperMod"
 
 params:
-    disableThemeToggle: false
+    disableThemeToggle: true
     defaultTheme: dark
     profileMode:
         enabled: true
